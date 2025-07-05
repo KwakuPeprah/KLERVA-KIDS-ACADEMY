@@ -1,0 +1,6 @@
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.csproj.AssemblyReference.cache
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA_KIDS.Form1.resources
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA_KIDS.Properties.Resources.resources
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.csproj.GenerateResource.cache
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.csproj.CoreCompileInputs.cache
