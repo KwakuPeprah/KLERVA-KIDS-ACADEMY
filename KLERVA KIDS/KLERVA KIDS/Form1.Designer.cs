@@ -48,11 +48,11 @@
             this.comboHealth = new System.Windows.Forms.ComboBox();
             this.dateRegistered = new System.Windows.Forms.ComboBox();
             this.btnSave = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.butReport = new System.Windows.Forms.Button();
             this.butDelete = new System.Windows.Forms.Button();
-            this.butSearch = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.butExit = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.butSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -231,7 +231,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnSave.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(207, 463);
             this.btnSave.Name = "btnSave";
@@ -241,20 +241,21 @@
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // button3
+            // butReport
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(387, 564);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(149, 81);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "Report";
-            this.button3.UseVisualStyleBackColor = false;
+            this.butReport.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.butReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butReport.Location = new System.Drawing.Point(387, 564);
+            this.butReport.Name = "butReport";
+            this.butReport.Size = new System.Drawing.Size(149, 81);
+            this.butReport.TabIndex = 22;
+            this.butReport.Text = "Report";
+            this.butReport.UseVisualStyleBackColor = false;
+            this.butReport.Click += new System.EventHandler(this.butReport_Click);
             // 
             // butDelete
             // 
-            this.butDelete.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.butDelete.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.butDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDelete.Location = new System.Drawing.Point(751, 463);
             this.butDelete.Name = "butDelete";
@@ -262,33 +263,23 @@
             this.butDelete.TabIndex = 23;
             this.butDelete.Text = "Delete";
             this.butDelete.UseVisualStyleBackColor = false;
+            this.butDelete.Click += new System.EventHandler(this.butDelete_Click);
             // 
-            // butSearch
+            // butExit
             // 
-            this.butSearch.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.butSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butSearch.Location = new System.Drawing.Point(574, 463);
-            this.butSearch.Name = "butSearch";
-            this.butSearch.Size = new System.Drawing.Size(149, 81);
-            this.butSearch.TabIndex = 24;
-            this.butSearch.Text = "Search";
-            this.butSearch.UseVisualStyleBackColor = false;
-            this.butSearch.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(574, 564);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(149, 81);
-            this.button6.TabIndex = 25;
-            this.button6.Text = "Exit";
-            this.button6.UseVisualStyleBackColor = false;
+            this.butExit.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.butExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butExit.Location = new System.Drawing.Point(574, 564);
+            this.butExit.Name = "butExit";
+            this.butExit.Size = new System.Drawing.Size(149, 81);
+            this.butExit.TabIndex = 25;
+            this.butExit.Text = "Exit";
+            this.butExit.UseVisualStyleBackColor = false;
+            this.butExit.Click += new System.EventHandler(this.butExit_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnUpdate.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(387, 463);
             this.btnUpdate.Name = "btnUpdate";
@@ -298,16 +289,28 @@
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // butSearch
+            // 
+            this.butSearch.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.butSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butSearch.Location = new System.Drawing.Point(574, 463);
+            this.butSearch.Name = "butSearch";
+            this.butSearch.Size = new System.Drawing.Size(149, 81);
+            this.butSearch.TabIndex = 27;
+            this.butSearch.Text = "Search";
+            this.butSearch.UseVisualStyleBackColor = false;
+            this.butSearch.Click += new System.EventHandler(this.butSearch_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1101, 669);
-            this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.button6);
             this.Controls.Add(this.butSearch);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.butExit);
             this.Controls.Add(this.butDelete);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.butReport);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.dateRegistered);
             this.Controls.Add(this.comboHealth);
@@ -357,11 +360,11 @@
         private System.Windows.Forms.ComboBox comboHealth;
         private System.Windows.Forms.ComboBox dateRegistered;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button butReport;
         private System.Windows.Forms.Button butDelete;
-        private System.Windows.Forms.Button butSearch;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button butExit;
         private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button butSearch;
     }
 }
 

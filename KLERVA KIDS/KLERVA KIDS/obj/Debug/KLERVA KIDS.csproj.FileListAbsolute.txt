@@ -4,3 +4,8 @@ C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\De
 C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA_KIDS.Properties.Resources.resources
 C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.csproj.GenerateResource.cache
 C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\bin\Debug\KLERVA KIDS.exe.config
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\bin\Debug\KLERVA KIDS.exe
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\bin\Debug\KLERVA KIDS.pdb
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.exe
+C:\Users\user\Documents\sweDoc\CSharp\KLERVA KIDS\KLERVA KIDS\KLERVA KIDS\obj\Debug\KLERVA KIDS.pdb
